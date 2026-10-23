@@ -1,0 +1,55 @@
+function(_0x1f8aed, _0x334891) {
+  var _0x462087 = a1_0x4b7c;
+  Object["defineProperty"](_0x334891, "__esModule", {
+    'value': !![]
+  }), _0x334891["getBeforeYesterdayDate"] = _0x2ea0d5, _0x334891["getCurrentDate"] = _0x38f555, _0x334891['getCurrentDateHour'] = _0x29436f, _0x334891['getCurrentDateStr'] = _0xab0e58, _0x334891['getYesterdayDate'] = _0x244c6c;
+
+  function _0x29436f() {
+    var _0xd1db0b = _0x462087,
+      _0x4ab559 = new Date();
+    return _0x4ab559["getHours"]();
+  }
+
+  function _0x38f555() {
+    var _0x367b1b = _0x462087,
+      _0x2a169c = new Date(),
+      _0x49da18 = _0x2a169c['getFullYear'](),
+      _0xda2c8 = _0x5ac05e(_0x2a169c["getMonth"]() + 0x1),
+      _0x41c1b7 = _0x5ac05e(_0x2a169c["getDate"]());
+    return _0x49da18 + '' + _0xda2c8 + '' + _0x41c1b7;
+  }
+
+  function _0x244c6c() {
+    var _0x5c3d68 = _0x462087,
+      _0x2aeb9a = new Date();
+    _0x2aeb9a["setDate"](_0x2aeb9a["getDate"]() - 0x1);
+    var _0x2ada5e = _0x2aeb9a["getFullYear"](),
+      _0x574765 = _0x5ac05e(_0x2aeb9a["getMonth"]() + 0x1),
+      _0x850e2a = _0x5ac05e(_0x2aeb9a["getDate"]());
+    return _0x2ada5e + '' + _0x574765 + '' + _0x850e2a;
+  }
+
+  function _0x2ea0d5() {
+    var _0x525b0a = _0x462087,
+      _0x21fb9c = new Date();
+    _0x21fb9c["setDate"](_0x21fb9c["getDate"]() - 0x2);
+    var _0x4eec05 = _0x21fb9c["getFullYear"](),
+      _0x33a47e = _0x5ac05e(_0x21fb9c["getMonth"]() + 0x1),
+      _0x1e8b3d = _0x5ac05e(_0x21fb9c['getDate']());
+    return _0x4eec05 + '' + _0x33a47e + '' + _0x1e8b3d;
+  }
+
+  function _0xab0e58() {
+    var _0x2614a5 = _0x462087,
+      _0x2307bd = new Date(),
+      _0x769c38 = _0x2307bd["getFullYear"](),
+      _0xcac29e = _0x5ac05e(_0x2307bd['getMonth']() + 0x1),
+      _0x2220f4 = _0x5ac05e(_0x2307bd["getDate"]()),
+      _0x2c1478 = _0x769c38 + '-' + _0xcac29e + '-' + _0x2220f4;
+    return _0x2c1478;
+  }
+
+  function _0x5ac05e(_0x2aec2e) {
+    return _0x2aec2e < 0xa ? '0' + _0x2aec2e : _0x2aec2e;
+  }
+}

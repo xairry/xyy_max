@@ -1,0 +1,266 @@
+function(_0x29c1f6, _0x20dc40, _0x5a61df) {
+  var _0x5d38c8 = a1_0x4b7c;
+  Object["defineProperty"](_0x20dc40, "__esModule", {
+    'value': !![]
+  }), _0x20dc40["funcs"] = _0x20dc40["funcApp"] = _0x20dc40["fqxsapp"] = _0x20dc40["fqctyybapp"] = _0x20dc40['fqctapp'] = _0x20dc40["dyscapp"] = _0x20dc40['dyjsapp'] = _0x20dc40['dyhsapp'] = _0x20dc40["dyapp"] = _0x20dc40["dsdddspapp"] = _0x20dc40["djxsapp"] = _0x20dc40["dhmfxsapp"] = _0x20dc40["default_app_order"] = _0x20dc40["appPackageName"] = _0x20dc40["appLaunchConfig"] = _0x20dc40["ZM_DOC"] = void 0x0, _0x20dc40['getLaunchConfig'] = _0x1ade6a, _0x20dc40["getPackageNameByAppName"] = _0x4bb893, _0x20dc40["hymfxsapp"] = _0x20dc40["hwreadapp"] = _0x20dc40['hwmusicapp'] = _0x20dc40["hmjcapp"] = _0x20dc40["hkmfxsapp"] = _0x20dc40["himovieapp"] = _0x20dc40['hidapp'] = _0x20dc40["hgdjapp"] = void 0x0, _0x20dc40["is3App"] = _0x33b45a, _0x20dc40["isAppInstalled"] = _0x57d672, _0x20dc40["xnmfdjapp"] = _0x20dc40["xmxsapp"] = _0x20dc40["xkxsapp"] = _0x20dc40['xgspapp'] = _0x20dc40["xfmfdjapp"] = _0x20dc40["wkllqapp"] = _0x20dc40["wifiapp"] = _0x20dc40["ucjsapp"] = _0x20dc40["ttjsapp"] = _0x20dc40["sqxsapp"] = _0x20dc40['sdmfxsapp'] = _0x20dc40["sdapp"] = _0x20dc40['qzxsapp'] = _0x20dc40['qsyyapp'] = _0x20dc40["qmxsapp"] = _0x20dc40["mymfdjapp"] = _0x20dc40["mimovieapp"] = _0x20dc40["micontentapp"] = _0x20dc40['mibrowserapp'] = _0x20dc40['ksptapp'] = _0x20dc40["ksjsapp"] = _0x20dc40["jrttapp"] = void 0x0;
+  var _0x2aff39 = _0x5a61df(M20_dyhs),
+    _0x223f15 = _0x5a61df(M31_douyin),
+    _0x4aed58 = _0x5a61df(M32_tomato_fanqie),
+    _0xe13e00 = _0x5a61df(M33_jinritoutiao),
+    _0x5376c1 = _0x5a61df(M34_kuaishou),
+    _0x98f9e8 = _0x5a61df(M19_novel_group_b),
+    _0x366264 = _0x5a61df(M35_sqxs),
+    _0x575965 = _0x5a61df(M36_wkllq),
+    _0x135ee6 = _0x5a61df(M37_xgsp),
+    _0x537648 = _0x5a61df(M38_qimao_zhangyue),
+    _0x3ede29 = _0x5a61df(M39_xfmfdj),
+    _0x58223d = _0x5a61df(M40_qsyy),
+    _0x4265bd = _0x5a61df(M41_dysc),
+    _0x59c842 = _0x5a61df(M42_hmjc),
+    _0xa85e65 = _0x5a61df(M43_ucjs),
+    _0x107b5b = _0x5a61df(M44_wifi),
+    _0x301cfe = _0x5a61df(M45_djxs),
+    _0x2a88b3 = _0x5a61df(M46_huawei_himovie_music_read),
+    _0x323d54 = _0x5a61df(M47_xiaomi_browser_content_video),
+    _0xf9da64 = _0x20dc40["appPackageName"] = {
+      'ksjs': 'com.kuaishou.nebula',
+      'kspt': "com.smile.gifmaker",
+      'dyjs': 'com.ss.android.ugc.aweme.lite',
+      'dy': 'com.ss.android.ugc.aweme',
+      'dyhs': "com.ss.android.ugc.live",
+      'dysc': 'com.ss.android.ugc.livelite',
+      'qsyy': "com.luna.music",
+      'ttjs': "com.ss.android.article.lite",
+      'jrtt': "com.ss.android.article.news",
+      'xgsp': 'com.ss.android.article.video',
+      'wkllq': "com.cat.readall",
+      'fqxs': "com.dragon.read",
+      'fqct': "com.xs.fm",
+      'fqctyyb': "com.xs.fm.lite",
+      'hgdj': "com.phoenix.read",
+      'mymfdj': "com.hm.hidrama",
+      'xnmfdj': "com.kylin.read",
+      'dhmfxs': "com.eggflower.read",
+      'xfmfdj': "com.kwai.theater",
+      'sqxs': "com.shuqi.controller",
+      'qmxs': "com.kmxs.reader",
+      'qzxs': "com.qz.freader",
+      'xkxs': "com.xk.qreader",
+      'xmxs': "com.xm.freader",
+      'djxs': "com.chaozh.iReader.dj",
+      'sdmfxs': "com.dj.speed",
+      'hkmfxs': "com.idejian.sm",
+      'sd': 'com.kangaroo.shengdu',
+      'dsdddsp': 'com.zhangyue.app.shortvideo',
+      'hmjc': "com.dz.hmjc",
+      'ucjs': "com.ucmobile.lite",
+      'wifi': "com.snda.wifilocating",
+      'himovie': "com.huawei.himovie",
+      'hwmusic': getAppName("com.huawei.music") ? "com.huawei.music" : "com.android.mediacenter",
+      'hwread': 'com.huawei.hwread.dz',
+      'mimovie': 'com.miui.video',
+      'mibrowser': "com.android.browser",
+      'micontent': 'com.miui.newhome',
+      'hymfxs': "com.chaozh.cata.bkyd"
+    },
+    _0x3ad51d = _0x20dc40["appLaunchConfig"] = {
+      'micontent': {
+        'packageName': "com.miui.newhome",
+        'activityName': "com.miui.newhome.business.ui.MainActivity"
+      }
+    };
+
+  function _0x1ade6a(_0x101832) {
+    var _0x12c3f0 = _0x5d38c8;
+    if (!_0x101832) return null;
+    if (_0x3ad51d[_0x101832]) return _0x3ad51d[_0x101832];
+    for (var _0x827a3 in _0x3ad51d) {
+      if (_0x3ad51d[_0x827a3]["packageName"] == _0x101832) return _0x3ad51d[_0x827a3];
+    }
+    return null;
+  }
+  var _0x4a3dd8 = _0x20dc40["ksjsapp"] = getAppName(_0xf9da64['ksjs']),
+    _0x150155 = _0x20dc40["ksptapp"] = getAppName(_0xf9da64['kspt']),
+    _0x12c824 = _0x20dc40["dyjsapp"] = getAppName(_0xf9da64["dyjs"]),
+    _0x5cf2c5 = _0x20dc40['qsyyapp'] = getAppName(_0xf9da64["qsyy"]),
+    _0x4b28f1 = _0x20dc40["dyapp"] = getAppName(_0xf9da64['dy']),
+    _0x375ef4 = _0x20dc40["dyhsapp"] = getAppName(_0xf9da64["dyhs"]),
+    _0x5a7843 = _0x20dc40["ttjsapp"] = getAppName(_0xf9da64["ttjs"]),
+    _0x35bb91 = _0x20dc40["jrttapp"] = getAppName(_0xf9da64["jrtt"]),
+    _0x3e8e09 = _0x20dc40["xgspapp"] = getAppName(_0xf9da64["xgsp"]),
+    _0x4e75a3 = _0x20dc40["wkllqapp"] = getAppName(_0xf9da64["wkllq"]),
+    _0x43a1de = _0x20dc40['fqxsapp'] = getAppName(_0xf9da64["fqxs"]),
+    _0x4d99f5 = _0x20dc40["fqctapp"] = getAppName(_0xf9da64['fqct']),
+    _0x540d90 = _0x20dc40["fqctyybapp"] = getAppName(_0xf9da64["fqctyyb"]),
+    _0x31f6c0 = _0x20dc40['hgdjapp'] = getAppName(_0xf9da64['hgdj']),
+    _0xa3980e = _0x20dc40["mymfdjapp"] = getAppName(_0xf9da64['mymfdj']),
+    _0x47de86 = _0x20dc40['xnmfdjapp'] = getAppName(_0xf9da64["xnmfdj"]),
+    _0x2c32ce = _0x20dc40['dhmfxsapp'] = getAppName(_0xf9da64["dhmfxs"]),
+    _0x525d98 = _0x20dc40['dyscapp'] = getAppName(_0xf9da64["dysc"]),
+    _0x19d9aa = _0x20dc40["xfmfdjapp"] = getAppName(_0xf9da64["xfmfdj"]),
+    _0x1a7888 = _0x20dc40["sqxsapp"] = getAppName(_0xf9da64["sqxs"]),
+    _0x3ba56b = _0x20dc40["qmxsapp"] = getAppName(_0xf9da64["qmxs"]),
+    _0x5bc5a2 = _0x20dc40["qzxsapp"] = getAppName(_0xf9da64["qzxs"]),
+    _0x355836 = _0x20dc40["xkxsapp"] = getAppName(_0xf9da64["xkxs"]),
+    _0x42d1a2 = _0x20dc40['xmxsapp'] = getAppName(_0xf9da64["xmxs"]),
+    _0xd20ec0 = _0x20dc40["djxsapp"] = getAppName(_0xf9da64["djxs"]),
+    _0x31f18d = _0x20dc40["sdmfxsapp"] = getAppName(_0xf9da64["sdmfxs"]),
+    _0x7cc3da = _0x20dc40["hkmfxsapp"] = getAppName(_0xf9da64['hkmfxs']),
+    _0x167b67 = _0x20dc40["sdapp"] = getAppName(_0xf9da64['sd']),
+    _0x28baa8 = _0x20dc40["dsdddspapp"] = getAppName(_0xf9da64["dsdddsp"]),
+    _0x144d18 = _0x20dc40["hmjcapp"] = getAppName(_0xf9da64['hmjc']),
+    _0x273d80 = _0x20dc40['ucjsapp'] = getAppName(_0xf9da64["ucjs"]),
+    _0x10ebe5 = _0x20dc40["wifiapp"] = getAppName(_0xf9da64["wifi"]),
+    _0x277507 = _0x20dc40["himovieapp"] = getAppName(_0xf9da64['himovie']),
+    _0x2d15d3 = _0x20dc40["hwmusicapp"] = getAppName(_0xf9da64["hwmusic"]),
+    _0x326654 = _0x20dc40['hwreadapp'] = getAppName(_0xf9da64['hwread']),
+    _0xb30c66 = _0x20dc40["mimovieapp"] = getAppName(_0xf9da64["mimovie"]),
+    _0x374d87 = _0x20dc40["mibrowserapp"] = getAppName(_0xf9da64["mibrowser"]),
+    _0x2b1439 = _0x20dc40["micontentapp"] = getAppName(_0xf9da64['micontent']),
+    _0x201895 = _0x20dc40['hymfxsapp'] = getAppName(_0xf9da64["hymfxs"]),
+    _0x4d7c59 = _0x20dc40["default_app_order"] = {
+      0x1: 'ksjs',
+      0x2: "kspt",
+      0x3: "xfmfdj",
+      0x4: "dyjs",
+      0x5: 'dy',
+      0x6: "dyhs",
+      0x7: 'dysc',
+      0x8: "qsyy",
+      0x9: 'ttjs',
+      0xa: 'jrtt',
+      0xb: 'xgsp',
+      0xc: 'wkllq',
+      0xd: "fqxs",
+      0xe: "fqct",
+      0xf: "fqctyyb",
+      0x10: 'hgdj',
+      0x11: "mymfdj",
+      0x12: 'xnmfdj',
+      0x13: "dhmfxs",
+      0x14: "hmjc",
+      0x15: "ucjs",
+      0x16: 'sqxs',
+      0x17: "qmxs",
+      0x18: "qzxs",
+      0x19: "xkxs",
+      0x1a: "xmxs",
+      0x1b: 'djxs',
+      0x1c: "sdmfxs",
+      0x1d: "hkmfxs",
+      0x1e: 'dsdddsp',
+      0x1f: 'sd',
+      0x20: "wifi",
+      0x21: "himovie",
+      0x22: "hwmusic",
+      0x23: "hwread",
+      0x24: "mimovie",
+      0x25: "mibrowser",
+      0x26: "micontent",
+      0x27: "hymfxs"
+    },
+    _0x5be448 = _0x20dc40["funcApp"] = {
+      'ksjs': _0x4a3dd8,
+      'kspt': _0x150155,
+      'xfmfdj': _0x19d9aa,
+      'dyjs': _0x12c824,
+      'dy': _0x4b28f1,
+      'dyhs': _0x375ef4,
+      'dysc': _0x525d98,
+      'qsyy': _0x5cf2c5,
+      'ttjs': _0x5a7843,
+      'jrtt': _0x35bb91,
+      'xgsp': _0x3e8e09,
+      'wkllq': _0x4e75a3,
+      'fqxs': _0x43a1de,
+      'fqct': _0x4d99f5,
+      'fqctyyb': _0x540d90,
+      'hgdj': _0x31f6c0,
+      'mymfdj': _0xa3980e,
+      'xnmfdj': _0x47de86,
+      'dhmfxs': _0x2c32ce,
+      'hmjc': _0x144d18,
+      'ucjs': _0x273d80,
+      'sqxs': _0x1a7888,
+      'qmxs': _0x3ba56b,
+      'qzxs': _0x5bc5a2,
+      'xkxs': _0x355836,
+      'xmxs': _0x42d1a2,
+      'djxs': _0xd20ec0,
+      'sdmfxs': _0x31f18d,
+      'hkmfxs': _0x7cc3da,
+      'dsdddsp': _0x28baa8,
+      'sd': _0x167b67,
+      'wifi': _0x10ebe5,
+      'himovie': _0x277507,
+      'hwmusic': _0x2d15d3,
+      'hwread': _0x326654,
+      'mimovie': _0xb30c66,
+      'mibrowser': _0x374d87,
+      'hymfxs': _0x201895,
+      'micontent': _0x2b1439
+    };
+
+  function _0x57d672(_0x3a8b4e) {
+    if (getAppName(_0x3a8b4e)) return !![];
+    return ![];
+  }
+
+  function _0x4bb893(_0x104b96) {
+    for (var _0x2d101d in _0x5be448) {
+      if (_0x5be448[_0x2d101d] == _0x104b96) {
+        if (_0x57d672(_0xf9da64[_0x2d101d])) return _0xf9da64[_0x2d101d];
+        break;
+      }
+    }
+    return null;
+  }
+  var _0x4c0d21 = _0x20dc40["funcs"] = {
+      'ksjs': _0x5376c1["ksjs"],
+      'kspt': _0x5376c1["kspt"],
+      'dyjs': _0x223f15["dyjs"],
+      'dy': _0x223f15['dy'],
+      'dyhs': _0x2aff39["dyhs"],
+      'dysc': _0x4265bd["dysc"],
+      'qsyy': _0x58223d['qsyy'],
+      'ttjs': _0xe13e00["ttjs"],
+      'jrtt': _0xe13e00['jrtt'],
+      'xgsp': _0x135ee6["xgsp"],
+      'wkllq': _0x575965["wkllq"],
+      'fqxs': _0x4aed58["fqxs"],
+      'fqct': _0x4aed58["fqct"],
+      'fqctyyb': _0x4aed58['fqctyyb'],
+      'hgdj': _0x4aed58["hgdj"],
+      'mymfdj': _0x4aed58["mymfdj"],
+      'xnmfdj': _0x4aed58["xnmfdj"],
+      'dhmfxs': _0x4aed58["dhmfxs"],
+      'xfmfdj': _0x3ede29['xfmfdj'],
+      'ucjs': _0xa85e65["ucjs"],
+      'sqxs': _0x366264["sqxs"],
+      'qmxs': _0x537648["qmxs"],
+      'qzxs': _0x537648["qzxs"],
+      'xkxs': _0x537648["xkxs"],
+      'xmxs': _0x537648["xmxs"],
+      'djxs': _0x301cfe["djxs"],
+      'sdmfxs': _0x98f9e8["sdmfxs"],
+      'hkmfxs': _0x98f9e8['hkmfxs'],
+      'dsdddsp': _0x98f9e8["dsdddsp"],
+      'sd': _0x98f9e8['sd'],
+      'hmjc': _0x59c842['hmjc'],
+      'wifi': _0x107b5b["wifi"],
+      'himovie': _0x2a88b3['himovie'],
+      'hwmusic': _0x2a88b3["hwmusic"],
+      'hwread': _0x2a88b3["hwread"],
+      'mimovie': _0x323d54["mimovie"],
+      'mibrowser': _0x323d54["mibrowser"],
+      'hymfxs': _0x98f9e8["hymfxs"],
+      'micontent': _0x323d54['micontent']
+    },
+    _0x14a0d3 = _0x20dc40['ZM_DOC'] = 'https://guide.aimaxbot.com';
+
+  function _0x33b45a(_0x4e39f8) {
+    if (_0x4e39f8 == _0x5a7843 || _0x4e39f8 == _0x35bb91 || _0x4e39f8 == _0x43a1de || _0x4e39f8 == _0x31f6c0 || _0x4e39f8 == _0xa3980e || _0x4e39f8 == _0x47de86 || _0x4e39f8 == _0x4d99f5 || _0x4e39f8 == _0x540d90 || _0x4e39f8 == _0x3e8e09 || _0x4e39f8 == _0x375ef4 || _0x4e39f8 == _0x4e75a3 || _0x4e39f8 == _0x2c32ce || _0x4e39f8 == _0x31f18d || _0x4e39f8 == _0x7cc3da || _0x4e39f8 == _0x28baa8 || _0x4e39f8 == _0x167b67 || _0x4e39f8 == _0x5cf2c5 || _0x4e39f8 == _0x144d18 || _0x4e39f8 == _0x273d80 || _0x4e39f8 == _0x10ebe5 || _0x4e39f8 == _0x277507 || _0x4e39f8 == _0x2d15d3 || _0x4e39f8 == _0x326654 || _0x4e39f8 == _0x201895) return !![];
+    return ![];
+  }
+  var _0x1daaa2 = _0x20dc40["hidapp"] = ['ksjs', 'kspt', "xfmfdj", "dyjs", 'dy', "dyhs", 'dysc', "qsyy", "ttjs", "jrtt", "xgsp", "wkllq", 'fqxs', "fqct", "fqctyyb", "hgdj", 'mymfdj', 'xnmfdj', "dhmfxs"];
+}

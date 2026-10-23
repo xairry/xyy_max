@@ -1,0 +1,1026 @@
+[
+ {
+  "idx": 0,
+  "keys": [
+   "dlog",
+   "scroll_down_quick",
+   "scroll_down_shipin",
+   "scroll_left",
+   "scroll_left_once"
+  ],
+  "exports": [
+   "backApp",
+   "cClick",
+   "checkGlobalConf",
+   "clearAll",
+   "clickCenter",
+   "clickMidBottomBtn",
+   "clickMidTopBtn",
+   "closeLocationAuth",
+   "complexDecrypt",
+   "createSchedule",
+   "descClick",
+   "descClickXY",
+   "dlog",
+   "dxClickGold"
+  ],
+  "file": "00_utils_ui_helpers.js",
+  "deps": [
+   1,
+   2,
+   3,
+   5,
+   6,
+   8
+  ],
+  "lines": 1116
+ },
+ {
+  "idx": 1,
+  "keys": [
+   "app_list",
+   "app_run_times",
+   "app_rw_lists",
+   "device_id",
+   "device_name"
+  ],
+  "exports": [
+   "hymfxs_rw_list",
+   "hymfxs_run_time",
+   "hymfxs_kanxiaoshu_min",
+   "hwread_rw_list",
+   "hwread_run_time",
+   "hwread_dushu_min",
+   "hwmusic_tingge_min",
+   "hwmusic_rw_list",
+   "hwmusic_run_time",
+   "hmjc_rw_list",
+   "hmjc_run_time",
+   "hmjc_kanduanju_min",
+   "hkmfxs_rw_list",
+   "hkmfxs_run_time"
+  ],
+  "file": "01_config_global.js",
+  "deps": [
+   0,
+   2,
+   6
+  ],
+  "lines": 147
+ },
+ {
+  "idx": 2,
+  "keys": [
+   "default_app_order",
+   "dhmfxsapp",
+   "djxsapp",
+   "dsdddspapp",
+   "dyapp"
+  ],
+  "exports": [
+   "funcs",
+   "funcApp",
+   "fqxsapp",
+   "fqctyybapp",
+   "fqctapp",
+   "dyscapp",
+   "dyjsapp",
+   "dyhsapp",
+   "dyapp",
+   "dsdddspapp",
+   "djxsapp",
+   "dhmfxsapp",
+   "default_app_order",
+   "appPackageName"
+  ],
+  "file": "02_app_registry.js",
+  "deps": [
+   19,
+   20,
+   31,
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41,
+   42,
+   43,
+   44,
+   45,
+   46,
+   47
+  ],
+  "lines": 266
+ },
+ {
+  "idx": 3,
+  "keys": [],
+  "exports": [
+   "OCRClick",
+   "OCRClickLast",
+   "OCRClickMenu",
+   "OCRClickNext",
+   "OCRClickNextByResult",
+   "OCRClickSimilarImage",
+   "OCRClickSimilarImageBottom",
+   "OCRClickSimilarImageTop",
+   "OCRFindNextByResult",
+   "OCRFindSimilarImageBinary",
+   "OCRFindSimilarImageBinaryLite",
+   "OCRHuaKuai",
+   "OCRMatch",
+   "OCRMatchClick"
+  ],
+  "file": "03_ocr_engine.js",
+  "deps": [
+   0,
+   1,
+   23,
+   27,
+   4,
+   5,
+   6,
+   11
+  ],
+  "lines": 695
+ },
+ {
+  "idx": 4,
+  "keys": [],
+  "exports": [
+   "clearAllQiandaoStatus",
+   "clearPushTimers",
+   "clearQiandaoStatus",
+   "getRotName",
+   "isOpenPush",
+   "scheduleNextPush",
+   "sendText",
+   "sendwxpusher",
+   "setGold",
+   "setQiandaoStatus"
+  ],
+  "file": "04_push_report.js",
+  "deps": [
+   0,
+   1,
+   2,
+   6,
+   11,
+   12
+  ],
+  "lines": 392
+ },
+ {
+  "idx": 5,
+  "keys": [],
+  "exports": [
+   "HBack",
+   "HCheckClick",
+   "HCheckClickXY",
+   "HClick",
+   "HFind",
+   "HFindClick",
+   "HFindClickXY",
+   "HHome",
+   "HRecents",
+   "HSwipe",
+   "HSwipeDown",
+   "HSwipeUp"
+  ],
+  "file": "05_hid_control.js",
+  "deps": [
+   0,
+   1,
+   3,
+   11,
+   15
+  ],
+  "lines": 102
+ },
+ {
+  "idx": 6,
+  "keys": [],
+  "exports": [
+   "clearBlackApp",
+   "clearCard",
+   "clearLongStorageValueByKey",
+   "clearRunApp",
+   "clearYunMaTimes",
+   "finishRw",
+   "getAimaxbotAccessToken",
+   "getAppDuration",
+   "getAppRuntimes",
+   "getCard",
+   "getCurrentRunningApp",
+   "getDownLoadApp",
+   "getLongStorage",
+   "getLongStorageValueByKey"
+  ],
+  "file": "06_storage_card.js",
+  "deps": [
+   0,
+   1,
+   2,
+   4,
+   12
+  ],
+  "lines": 265
+ },
+ {
+  "idx": 7,
+  "keys": [
+   "dx_ok",
+   "fq_ok",
+   "ks_ok",
+   "wait_close",
+   "wait_close_by_text"
+  ],
+  "exports": [
+   "closeAd",
+   "closeAd33",
+   "closeClickable",
+   "closeImage",
+   "closeImageBottomRight",
+   "closeLeftClickable",
+   "closeLeftImage",
+   "dx_ok",
+   "fq_ok",
+   "isAdPage",
+   "isYangHao",
+   "ks_ok",
+   "scroll_close",
+   "wait_close"
+  ],
+  "file": "07_ad_close.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   5,
+   6,
+   8,
+   10,
+   11,
+   15
+  ],
+  "lines": 1061
+ },
+ {
+  "idx": 8,
+  "keys": [],
+  "exports": [
+   "checkAppRwList",
+   "checkMinGold",
+   "checkMinGoldStr",
+   "compareValues",
+   "getObjectFloat",
+   "getObjectNumber",
+   "getTextFloat",
+   "getTextNumber",
+   "isNumber",
+   "macthTimeStr",
+   "timetoSecond"
+  ],
+  "file": "08_check_task.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3
+  ],
+  "lines": 119
+ },
+ {
+  "idx": 9,
+  "keys": [
+   "xs_after",
+   "xs_kanshipin",
+   "xs_kanshipin2",
+   "xs_kanshu",
+   "xs_tingshu"
+  ],
+  "exports": [
+   "check_activity",
+   "fq_tingshu",
+   "xs_after",
+   "xs_kanshipin",
+   "xs_kanshipin2",
+   "xs_kanshipin3",
+   "xs_kanshu",
+   "xs_tingshu"
+  ],
+  "file": "09_video_book_common.js",
+  "deps": [
+   0,
+   1,
+   5
+  ],
+  "lines": 191
+ },
+ {
+  "idx": 10,
+  "keys": [],
+  "exports": [
+   "XGSP_HOME",
+   "TT_CLOSE",
+   "KS_HOME",
+   "KS_CLOSE_X",
+   "KSPT_HOME2",
+   "KSPT_HOME",
+   "FQXS_LQ",
+   "DY_HOME2",
+   "DY_HOME",
+   "DYSC",
+   "DYHS_HOME",
+   "DX_CLOSE_X",
+   "DXJS_HOME",
+   "CLOSE3"
+  ],
+  "file": "10_activity_consts.js",
+  "deps": [],
+  "lines": 22
+ },
+ {
+  "idx": 11,
+  "keys": [
+   "default",
+   "exports"
+  ],
+  "exports": [],
+  "file": "11_babel_interop.js",
+  "deps": [],
+  "lines": 11
+ },
+ {
+  "idx": 12,
+  "keys": [],
+  "exports": [
+   "getBeforeYesterdayDate",
+   "getCurrentDate",
+   "getCurrentDateHour",
+   "getCurrentDateStr",
+   "getYesterdayDate"
+  ],
+  "file": "12_date_utils.js",
+  "deps": [],
+  "lines": 55
+ },
+ {
+  "idx": 14,
+  "keys": [
+   "default",
+   "exports"
+  ],
+  "exports": [],
+  "file": "14_babel_typeof.js",
+  "deps": [],
+  "lines": 15
+ },
+ {
+  "idx": 15,
+  "keys": [
+   "default",
+   "length"
+  ],
+  "exports": [
+   "default",
+   "KEY",
+   "HID",
+   "CONSUMER"
+  ],
+  "file": "15_hid_ble.js",
+  "deps": [
+   0,
+   16,
+   11
+  ],
+  "lines": 570
+ },
+ {
+  "idx": 16,
+  "keys": [
+   "default",
+   "exports"
+  ],
+  "exports": [],
+  "file": "16_babel_define_property.js",
+  "deps": [
+   21
+  ],
+  "lines": 14
+ },
+ {
+  "idx": 17,
+  "keys": [
+   "default",
+   "exports"
+  ],
+  "exports": [],
+  "file": "17_babel_array_like.js",
+  "deps": [
+   18
+  ],
+  "lines": 14
+ },
+ {
+  "idx": 18,
+  "keys": [
+   "exports"
+  ],
+  "exports": [],
+  "file": "18_babel_slice.js",
+  "deps": [],
+  "lines": 11
+ },
+ {
+  "idx": 19,
+  "keys": [
+   "hkmfxs",
+   "hymfxs"
+  ],
+  "exports": [
+   "djxsnew",
+   "dsdddsp",
+   "hkmfxs",
+   "hymfxs",
+   "sd",
+   "sdmfxs"
+  ],
+  "file": "19_novel_group_b.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   7,
+   8,
+   9
+  ],
+  "lines": 466
+ },
+ {
+  "idx": 20,
+  "keys": [
+   "dyhs"
+  ],
+  "exports": [
+   "dyhs"
+  ],
+  "file": "20_dyhs.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "lines": 126
+ },
+ {
+  "idx": 21,
+  "keys": [
+   "exports"
+  ],
+  "exports": [],
+  "file": "21_babel_to_primitive.js",
+  "deps": [
+   22,
+   14
+  ],
+  "lines": 12
+ },
+ {
+  "idx": 22,
+  "keys": [
+   "default"
+  ],
+  "exports": [],
+  "file": "22_babel_to_primitive2.js",
+  "deps": [
+   14
+  ],
+  "lines": 17
+ },
+ {
+  "idx": 23,
+  "keys": [
+   "default",
+   "exports"
+  ],
+  "exports": [],
+  "file": "23_babel_to_array.js",
+  "deps": [
+   17,
+   24,
+   25,
+   26
+  ],
+  "lines": 12
+ },
+ {
+  "idx": 24,
+  "keys": [
+   "exports"
+  ],
+  "exports": [],
+  "file": "24_babel_array_only.js",
+  "deps": [],
+  "lines": 9
+ },
+ {
+  "idx": 25,
+  "keys": [
+   "default",
+   "exports"
+  ],
+  "exports": [],
+  "file": "25_babel_iterable.js",
+  "deps": [],
+  "lines": 31
+ },
+ {
+  "idx": 26,
+  "keys": [
+   "default",
+   "exports"
+  ],
+  "exports": [],
+  "file": "26_babel_non_iterable.js",
+  "deps": [],
+  "lines": 8
+ },
+ {
+  "idx": 27,
+  "keys": [],
+  "exports": [],
+  "file": "27_babel_to_array2.js",
+  "deps": [
+   17,
+   28,
+   29,
+   30
+  ],
+  "lines": 12
+ },
+ {
+  "idx": 28,
+  "keys": [
+   "default",
+   "exports"
+  ],
+  "exports": [],
+  "file": "28_babel_iterable2.js",
+  "deps": [
+   18
+  ],
+  "lines": 10
+ },
+ {
+  "idx": 29,
+  "keys": [],
+  "exports": [],
+  "file": "29_babel_array_from.js",
+  "deps": [],
+  "lines": 9
+ },
+ {
+  "idx": 30,
+  "keys": [
+   "default",
+   "exports"
+  ],
+  "exports": [],
+  "file": "30_babel_spread_error.js",
+  "deps": [],
+  "lines": 8
+ },
+ {
+  "idx": 31,
+  "keys": [],
+  "exports": [
+   "dy",
+   "dyjs"
+  ],
+  "file": "31_douyin.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   12
+  ],
+  "lines": 326
+ },
+ {
+  "idx": 32,
+  "keys": [
+   "dhmfxs",
+   "fqct",
+   "fqctyyb",
+   "hgdj",
+   "mymfdj"
+  ],
+  "exports": [
+   "dhmfxs",
+   "fqct",
+   "fqctyyb",
+   "fqxs",
+   "hgdj",
+   "mymfdj",
+   "xnmfdj"
+  ],
+  "file": "32_tomato_fanqie.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "lines": 653
+ },
+ {
+  "idx": 33,
+  "keys": [
+   "jrtt",
+   "ttjs"
+  ],
+  "exports": [
+   "jrtt",
+   "ttjs"
+  ],
+  "file": "33_jinritoutiao.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   12
+  ],
+  "lines": 331
+ },
+ {
+  "idx": 34,
+  "keys": [
+   "ksjs",
+   "kspt"
+  ],
+  "exports": [
+   "ksjs",
+   "kspt"
+  ],
+  "file": "34_kuaishou.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   12
+  ],
+  "lines": 442
+ },
+ {
+  "idx": 35,
+  "keys": [
+   "sqxs"
+  ],
+  "exports": [
+   "sqxs"
+  ],
+  "file": "35_sqxs.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   8,
+   9
+  ],
+  "lines": 232
+ },
+ {
+  "idx": 36,
+  "keys": [
+   "wkllq"
+  ],
+  "exports": [
+   "wkllq"
+  ],
+  "file": "36_wkllq.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "lines": 244
+ },
+ {
+  "idx": 37,
+  "keys": [
+   "xgsp"
+  ],
+  "exports": [
+   "xgsp"
+  ],
+  "file": "37_xgsp.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "lines": 260
+ },
+ {
+  "idx": 38,
+  "keys": [
+   "qmxs",
+   "qzxs",
+   "xkxs",
+   "xmxs"
+  ],
+  "exports": [
+   "qmxs",
+   "qzxs",
+   "xkxs",
+   "xmxs"
+  ],
+  "file": "38_qimao_zhangyue.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   8,
+   9
+  ],
+  "lines": 507
+ },
+ {
+  "idx": 39,
+  "keys": [],
+  "exports": [
+   "xfmfdj"
+  ],
+  "file": "39_xfmfdj.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "lines": 159
+ },
+ {
+  "idx": 40,
+  "keys": [
+   "qsyy"
+  ],
+  "exports": [
+   "qsyy"
+  ],
+  "file": "40_qsyy.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   10
+  ],
+  "lines": 159
+ },
+ {
+  "idx": 41,
+  "keys": [
+   "dysc"
+  ],
+  "exports": [
+   "dysc"
+  ],
+  "file": "41_dysc.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   8,
+   10
+  ],
+  "lines": 150
+ },
+ {
+  "idx": 42,
+  "keys": [
+   "hmjc"
+  ],
+  "exports": [
+   "hmjc"
+  ],
+  "file": "42_hmjc.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "lines": 196
+ },
+ {
+  "idx": 43,
+  "keys": [
+   "ucjs"
+  ],
+  "exports": [
+   "ucjs"
+  ],
+  "file": "43_ucjs.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   7,
+   8
+  ],
+  "lines": 124
+ },
+ {
+  "idx": 44,
+  "keys": [
+   "wifi"
+  ],
+  "exports": [
+   "wifi"
+  ],
+  "file": "44_wifi.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   7,
+   8
+  ],
+  "lines": 110
+ },
+ {
+  "idx": 45,
+  "keys": [],
+  "exports": [
+   "djxs"
+  ],
+  "file": "45_djxs.js",
+  "deps": [
+   0,
+   1,
+   19,
+   2,
+   3,
+   4,
+   7,
+   8,
+   9
+  ],
+  "lines": 231
+ },
+ {
+  "idx": 46,
+  "keys": [
+   "himovie",
+   "tixian"
+  ],
+  "exports": [
+   "himovie",
+   "hwmusic",
+   "hwread",
+   "tixian"
+  ],
+  "file": "46_huawei_himovie_music_read.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "lines": 390
+ },
+ {
+  "idx": 47,
+  "keys": [
+   "mibrowser",
+   "micontent",
+   "mimovie"
+  ],
+  "exports": [
+   "mibrowser",
+   "micontent",
+   "mimovie",
+   "tixian"
+  ],
+  "file": "47_xiaomi_browser_content_video.js",
+  "deps": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   8
+  ],
+  "lines": 354
+ },
+ {
+  "idx": 48,
+  "keys": [],
+  "exports": [],
+  "file": "48_main_ui.js",
+  "deps": [
+   6,
+   11
+  ],
+  "lines": 381
+ }
+]
